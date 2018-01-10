@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="levelbody">
+  <div class="imgbanner">
+    <p>
+	    <img class="levelimg" src="img/bodmas_banner_whitebg.png" alt="BODMAS">
+    </p>
+  </div>
+  <center>
+    <div class="one">
+      <div class="btn-group-vertical">
+        <a class="btn btn-primary" href="#!easy"><b>Noobie !</b></a>
+        <p class="hint"> 3 Numbers, 2 pair of brackets and 2 operators</p> <br>
+        <a class="btn btn-primary" href="#!medium"><b>Expert !</b></a>
+        <p class="hint"> 4 Numbers, 3 pair of brackets and 3 operators</p></br>
+        <a class="btn btn-primary" href="#!hard"><b>Pro !!</b></a>
+        <p class="hint"> 5 Numbers, 4 pair of brackets and 4 operators</p></br>
+     </div>
+    </div>
+  </center>
+			<div class="minlevel">
+        <p>
+		    <img src="img/minionlevel.png" alt="BODMAS">
+        </p>
+			</div>
+      <center>
+       <div class="two">
+         <button class="btn btn-primary" data-toggle="modal" data-target="#myTutoModal">Rules</button>
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <button class="btn btn-primary" data-toggle="modal" data-target="#myTuto">&nbsp;INFO&nbsp;</button>
+      </div>
+		</center>
+
+<!-- Modal For Tutorial -->
+    <div  class="modal fade" id="myTutoModal" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header" >
+            <h4 class="modal-title levelh4"><b>BODMAS RULES</b></h4>
+          </div>
+        <div id="tuto" class="modal-body" style="color: #000000;text-align: center;">
+         <ul class="list-group" >
+          <li class="list-group-item">
+             <b>Brackets (B)</b>- The highest level order is defined by anything contained in brackets.
+          </li>
+          <li class="list-group-item">
+             <b>ORDER (O) </b>- Order of operations - when precedence is equal is generally from left to right.
+          </li>
+          <li class="list-group-item">
+          <b>MULTIPLICATION and DIVISION rank equally </b>, so you go from left to right in the equation, doing each operation in the order in which it appears.
+         </li>
+         <li class="list-group-item">
+           Let us look at &nbsp; <b> Example : &nbsp; (18 / 6) *( 8 / 4 ) </b>
+           <br>You just work from left to right. Eighteen over six is three, times eight is twenty four, divided by four is 6.
+         </li>
+         <li class="list-group-item">
+           <b>ADDITION and SUBTRACTION : again carry equal weight </b> and you're supposed to go from left to right.
+         </li>
+         <li class="list-group-item">
+            For <b>Example :</b> &nbsp;&nbsp;  <b>40-12+22 </b> will give the answer as <b>50</b>.
+         </li>
+     </ul>
+   </div>
+   <div class="modal-footer">
+     <button class="btn btn-primary btn-sm" data-dismiss="modal" onclick="">close</button>
+  </div>
+  </div>
+ </div>
+</div>
+
+<!-- Modal For Tutorial -->
+    <div  class="modal fade" id="myTuto" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header" >
+
+            <h4 class="modal-title levelh4"><b>PLAY BOOK</b></h4>
+          </div>
+        <div id="tuto" class="modal-body" style="color: #000000;text-align: center;">
+         <ul class="list-group" >
+          <li class="list-group-item">
+             The intent of the App is to Generate a <b>BODMAS Quiz</b> which runs for <b> 1 minute </b> or <b>60 Seconds</b>
+          </li>
+          <li class="list-group-item">
+          <b>AFTER SELECTING LEVEL : </b>
+         </li>
+         <li class="list-group-item">
+         <b>GOAL</b> : Attempt maximum questions in 60 seconds
+         </li>
+         <li class="list-group-item">
+         <b>INPUT</b> : Give Answers to closest possible Integer
+         </li>
+         <li class="list-group-item">
+           <b>SCORES </b> : 10 POINTS awared for each right answer none for wrong
+         </li>
+         <li class="list-group-item">
+           Choose to Skip : <b> to save time !!! </b> i.e NO RESPONSE ( <b>Hint :</b> next equation can be easy, so don't get stuck if  you find the difficult one )
+         </li>
+         <li class="list-group-item">
+          <b>Remember</b> : The objective is to beat the Current High Score
+         </li>
+     </ul>
+   </div>
+   <div class="modal-footer">
+     <button class="btn btn-primary btn-sm" data-dismiss="modal" onclick="">close</button>
+ </div>
+  </div>
+ </div>
+</div>
+
+</body>
+</html>

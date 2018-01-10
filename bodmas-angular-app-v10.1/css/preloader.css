@@ -1,0 +1,48 @@
+
+.loaderbody{
+	background-color: #b3e5fc;
+	color: white;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 25px;
+
+}
+
+.minion {
+	display: block;
+	margin: 0 auto;
+	color: #325d88;
+	padding-top: 8px;
+
+}
+
+.loader {
+  position: absolute;
+  top: 95%;
+  left: 58%;
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+  margin: -100px 0 100px -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 12px solid #63a4ff;
+  border-right: 12px solid #b3e5fc;
+  border-bottom: 12px solid #e6ffff;
+  border-left: 12px solid #6ec6ff;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

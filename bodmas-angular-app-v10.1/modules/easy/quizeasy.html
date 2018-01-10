@@ -1,0 +1,57 @@
+
+<html>
+
+ <input type="hidden" id="json_data" />
+  <div class="imgbanner">
+
+    <img src="img/bodmas_banner_whitebg.png" alt="BODMAS" />
+
+  </div>
+<body >
+<p>
+  <div id="clockdiv">
+    <div>
+      <span class="seconds" id="countdowntimer">60</span>
+      <div class="smalltext">Seconds</div>
+    </div>
+  </div>
+</p>
+
+<h4><i><span class="level">LEVEL : </span></i>&nbsp;&nbsp;<b>Noobie !</b></h4>
+
+
+<!-- Score Panel -->
+<div class="panel panel-primary" style="padding-bottom: 10px;">
+  <div class="panel-heading">
+    <h2 id="eqn" ></h2>
+  </div>
+  <div class="panel-body" ></div>
+  <center class="center">
+    <div class="nav nav-pills">
+    <div class="active"><h4>Score : <span class="label label-primary" id="score">-</span></h4></div>
+   </div>
+  <form id='quizform'>
+      <div class="form-group">
+        <label class="control-label"></label>
+        <div class="input-group">
+          <span class="input-group-addon">=</span>
+          <input type="number" class="form-control" id="myNumber">
+          <span class="input-group-btn">
+           <input id='done' type='button' class="btn btn-primary" value="Done" ng-click='ansA();bodmasA();' >
+          </span>
+        </div>
+     </div>
+  </form>
+    <!-- Show message Right or Wrong -->
+  <table class="response">
+    <tr >
+     <td><img class="minionmsg" src="" alt="" id="message" /></td>
+    </tr>
+    <tr>
+      <td><b id="textmessage"></b></td>
+    </tr>
+  </table>
+ </center>
+</div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+body{
+	text-align: center;
+	background: #b3e5fc;
+  font-weight: 100;
+	
+}
+
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+h4 {
+	   color:#325d88;
+}
+h5 {
+	   color:#325d88;
+}
+
+.response {
+	         color:#325d88;
+}
+
+
+.minionmsg{
+    display: block;
+    margin: 0 auto;
+}
+
+.level{
+
+	color:#fff;
+}
+.imgbanner{
+	          margin-top: 20px;
+            margin-bottom: 30px;
+
+}
+
+.minlevel{
+	margin-top: -5px;
+	margin-bottom: -70px;
+
+}
+
+#clockdiv{
+	font-family: calibire;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #325d88;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #b3e5fc;
+	display: inline-block;
+	color:#325d88;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+	color:#b3e5fc;
+}
+
+.container{
+    width:250px;
+    border:none;
+	  margin:10px;
+
+}
+
+.thcolor{
+
+			background: #325d88;
+			color: #fff;
+
+}
+
+.quote {
+	      color:#325d88;;
+
+}
+
+.team {
+         text-align: right;
+				 color:#325d88;
+
+}
+
+.tbcolor {
+
+	       color:#000000;
+
+}
+
+.teamname {
+
+	      color:#325d88;
+}

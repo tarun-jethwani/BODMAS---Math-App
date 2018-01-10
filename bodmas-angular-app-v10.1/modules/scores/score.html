@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> SCORE </title>
+	 </head>
+
+<body>
+	<p>
+	  <img src="img/bodmas_banner_whitebg.png" alt="BODMAS">
+	</p>
+    <table class="table table-striped table-hover" >
+	  <thead>
+	    <tr class="thcolor">
+	      <td><b>#</b></td>
+	      <td ><b>Your Scores</b></td>
+
+	    </tr>
+
+	  </thead>
+	  <tbody class="tbcolor active">
+	  	<tr style='color:black;' class="info">
+	    	<td>Current Score</td>
+	    	<td>{{cscore}}</td>
+	    </tr>
+	    <tr ng-repeat="sc in score | limitTo:5" style='color:black;' class="active">
+	    	<td>{{$index+1}}</td>
+	    	<td>{{sc}}</td>
+	    </tr>
+	  </tbody>
+	</table>
+	<div class="minlevel">
+		<p>
+	     <img src="img/minionthankyou.png" alt="BODMAS">
+	    </p>
+	</div>
+	<center>
+	  <div class="two">
+		 <a class="btn btn-primary" href="#!levels">Play Again</a>
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		 <a class="btn btn-primary" ng-click="closeBrowser()"> Quit</a>
+	  </div>
+	<center>
+	 <p>
+	   <div class="quote">
+	   	<b>
+	   		<center>Life is just like A Simplification Problem</center>
+			<center>So solve it with the Principle Of BODMAS</center>
+		    <center>Remove your Barriers, Figure out the Odd Ones,</center>
+		    <center>Divide your Distractions, Multiply your Strengths,</center>
+		    <center>Add your Loved Ones, And Subtract your Weekness,</center></b>
+			<p>
+				<div class="team"> A Product By - <span class="teamname"><i><b> " Classroom Script "</b><i> </span>&nbsp;&nbsp; </div>
+				</div>
+		   </p>
+	</p>
+
+</body>
+</html>

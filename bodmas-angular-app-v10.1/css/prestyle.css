@@ -1,0 +1,68 @@
+
+.levelbody{
+	background-color: #b3e5fc;
+	color: white;
+}
+
+.levelimg {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    width: auto;
+    height: auto;
+}
+
+.levelh4{
+	  color:#325d88;
+}
+.modal-body{
+
+	 color:#000;
+
+}
+.imgbanner{
+	          margin-top: -10px;
+            margin-bottom: 30px;
+
+}
+
+.minlevel{
+	margin-top: -70px;
+	margin-bottom: -80px;
+
+}
+
+.hint{
+  color: #000000;
+}
+.navbar{
+	background-color: #0088a3;
+}
+.box1{
+	background-color: #62ebff;
+
+}
+.box2{
+	background-color: #283593;
+}
+.but1{
+background-color: #63a4ff;
+
+}
+.but2{
+background-color: #004ba0;
+
+}
+.two{
+
+	padding-top:20px;
+	padding-bottom: 30px;
+	vertical-align: bottom;
+}
+.head1{
+	background-color: #b3e5fc;
+	color: #004ba0;
+	letter-spacing: 13px;
+	text-shadow: 3px 2px #82b3c9;
+	text-align: center;
+}
